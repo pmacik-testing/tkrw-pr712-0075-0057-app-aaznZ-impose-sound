@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-nmdr
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0057-tenant/tkrw-pr712-0075-0057-app/devfile-sample-nmdr@sha256:5d2bda2e4c5ea4803af44302958a75784bf0633c10c421f526837d54279e1826
         name: my-nodejs
         ports:
         - containerPort: 3001
